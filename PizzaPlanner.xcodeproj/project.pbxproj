@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2EC62FE1E0D2C1400ADA506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC62FD1E0D2C1400ADA506 /* AppDelegate.swift */; };
+		D2EC63031E0D2C1400ADA506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EC63011E0D2C1400ADA506 /* Main.storyboard */; };
+		D2EC63051E0D2C1400ADA506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2EC63041E0D2C1400ADA506 /* Assets.xcassets */; };
+		D2EC63081E0D2C1400ADA506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EC63061E0D2C1400ADA506 /* LaunchScreen.storyboard */; };
+		D2EC633B1E0D64A500ADA506 /* ToppingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC633A1E0D64A500ADA506 /* ToppingsTableViewController.swift */; };
+		D2EC63611E0D856000ADA506 /* pizzaOrders.json in Resources */ = {isa = PBXBuildFile; fileRef = D2EC63601E0D856000ADA506 /* pizzaOrders.json */; };
+		D2EC63671E0DA83800ADA506 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC63661E0DA83800ADA506 /* Constants.swift */; };
+		D2EC637C1E0DAF8500ADA506 /* PizzaPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2EC637A1E0DAF8500ADA506 /* PizzaPlanner.xcdatamodeld */; };
+		D2EC63821E0DBCD400ADA506 /* ToppingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC63811E0DBCD400ADA506 /* ToppingsViewModel.swift */; };
+		D2EC63841E0DD74B00ADA506 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC63831E0DD74B00ADA506 /* SettingsTableViewController.swift */; };
+		D2EC63861E0DE4AD00ADA506 /* CustomCombosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC63851E0DE4AD00ADA506 /* CustomCombosTableViewController.swift */; };
+		D2EC63881E0DE60200ADA506 /* CustomCombosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC63871E0DE60200ADA506 /* CustomCombosViewModel.swift */; };
+		D2EC638A1E0DE85900ADA506 /* TopCombosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC63891E0DE85900ADA506 /* TopCombosTableViewController.swift */; };
+		D2EC638C1E0DE95700ADA506 /* TopCombosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC638B1E0DE95700ADA506 /* TopCombosViewModel.swift */; };
+		D2EC638E1E0DEE7D00ADA506 /* CreateCustomComboTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC638D1E0DEE7D00ADA506 /* CreateCustomComboTableViewController.swift */; };
+		D2EC63901E0DEE9B00ADA506 /* CreateCustomComboViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC638F1E0DEE9B00ADA506 /* CreateCustomComboViewModel.swift */; };
+		D2EC63921E0E00BA00ADA506 /* PizzaPlannerStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EC63911E0E00BA00ADA506 /* PizzaPlannerStyleKit.swift */; };
+		D2FDCB051E0E76CB00A80A88 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FDCB041E0E76CB00A80A88 /* MessageView.swift */; };
+		D2FDCB0B1E0E856D00A80A88 /* TopComboCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FDCB0A1E0E856D00A80A88 /* TopComboCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2EC62FA1E0D2C1400ADA506 /* PizzaPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EC62FD1E0D2C1400ADA506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2EC63021E0D2C1400ADA506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2EC63041E0D2C1400ADA506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2EC63071E0D2C1400ADA506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2EC63091E0D2C1400ADA506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EC633A1E0D64A500ADA506 /* ToppingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToppingsTableViewController.swift; sourceTree = "<group>"; };
+		D2EC63601E0D856000ADA506 /* pizzaOrders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pizzaOrders.json; sourceTree = "<group>"; };
+		D2EC63661E0DA83800ADA506 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D2EC637B1E0DAF8500ADA506 /* PizzaPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PizzaPlanner.xcdatamodel; sourceTree = "<group>"; };
+		D2EC63811E0DBCD400ADA506 /* ToppingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToppingsViewModel.swift; sourceTree = "<group>"; };
+		D2EC63831E0DD74B00ADA506 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		D2EC63851E0DE4AD00ADA506 /* CustomCombosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCombosTableViewController.swift; sourceTree = "<group>"; };
+		D2EC63871E0DE60200ADA506 /* CustomCombosViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCombosViewModel.swift; sourceTree = "<group>"; };
+		D2EC63891E0DE85900ADA506 /* TopCombosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCombosTableViewController.swift; sourceTree = "<group>"; };
+		D2EC638B1E0DE95700ADA506 /* TopCombosViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCombosViewModel.swift; sourceTree = "<group>"; };
+		D2EC638D1E0DEE7D00ADA506 /* CreateCustomComboTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCustomComboTableViewController.swift; sourceTree = "<group>"; };
+		D2EC638F1E0DEE9B00ADA506 /* CreateCustomComboViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCustomComboViewModel.swift; sourceTree = "<group>"; };
+		D2EC63911E0E00BA00ADA506 /* PizzaPlannerStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaPlannerStyleKit.swift; sourceTree = "<group>"; };
+		D2FDCB041E0E76CB00A80A88 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		D2FDCB0A1E0E856D00A80A88 /* TopComboCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopComboCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2EC62F71E0D2C1300ADA506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2EC62F11E0D2C1300ADA506 = {
+			isa = PBXGroup;
+			children = (
+				D2EC62FC1E0D2C1400ADA506 /* PizzaPlanner */,
+				D2EC62FB1E0D2C1400ADA506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2EC62FB1E0D2C1400ADA506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2EC62FA1E0D2C1400ADA506 /* PizzaPlanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2EC62FC1E0D2C1400ADA506 /* PizzaPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				D2EC62FD1E0D2C1400ADA506 /* AppDelegate.swift */,
+				D2EC63011E0D2C1400ADA506 /* Main.storyboard */,
+				D2EC63041E0D2C1400ADA506 /* Assets.xcassets */,
+				D2EC63061E0D2C1400ADA506 /* LaunchScreen.storyboard */,
+				D2EC63091E0D2C1400ADA506 /* Info.plist */,
+				D2EC63601E0D856000ADA506 /* pizzaOrders.json */,
+				D2EC63661E0DA83800ADA506 /* Constants.swift */,
+				D2EC637A1E0DAF8500ADA506 /* PizzaPlanner.xcdatamodeld */,
+				D2EC633A1E0D64A500ADA506 /* ToppingsTableViewController.swift */,
+				D2EC63811E0DBCD400ADA506 /* ToppingsViewModel.swift */,
+				D2EC63831E0DD74B00ADA506 /* SettingsTableViewController.swift */,
+				D2EC63851E0DE4AD00ADA506 /* CustomCombosTableViewController.swift */,
+				D2EC63871E0DE60200ADA506 /* CustomCombosViewModel.swift */,
+				D2EC63891E0DE85900ADA506 /* TopCombosTableViewController.swift */,
+				D2FDCB0A1E0E856D00A80A88 /* TopComboCell.swift */,
+				D2EC638B1E0DE95700ADA506 /* TopCombosViewModel.swift */,
+				D2EC638D1E0DEE7D00ADA506 /* CreateCustomComboTableViewController.swift */,
+				D2EC638F1E0DEE9B00ADA506 /* CreateCustomComboViewModel.swift */,
+				D2EC63911E0E00BA00ADA506 /* PizzaPlannerStyleKit.swift */,
+				D2FDCB041E0E76CB00A80A88 /* MessageView.swift */,
+			);
+			path = PizzaPlanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2EC62F91E0D2C1300ADA506 /* PizzaPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EC630C1E0D2C1400ADA506 /* Build configuration list for PBXNativeTarget "PizzaPlanner" */;
+			buildPhases = (
+				D2EC62F61E0D2C1300ADA506 /* Sources */,
+				D2EC62F71E0D2C1300ADA506 /* Frameworks */,
+				D2EC62F81E0D2C1300ADA506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaPlanner;
+			productName = PizzaPlanner;
+			productReference = D2EC62FA1E0D2C1400ADA506 /* PizzaPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2EC62F21E0D2C1300ADA506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Scott Gardner";
+				TargetAttributes = {
+					D2EC62F91E0D2C1300ADA506 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CX893E63R7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2EC62F51E0D2C1300ADA506 /* Build configuration list for PBXProject "PizzaPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2EC62F11E0D2C1300ADA506;
+			productRefGroup = D2EC62FB1E0D2C1400ADA506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2EC62F91E0D2C1300ADA506 /* PizzaPlanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2EC62F81E0D2C1300ADA506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EC63081E0D2C1400ADA506 /* LaunchScreen.storyboard in Resources */,
+				D2EC63051E0D2C1400ADA506 /* Assets.xcassets in Resources */,
+				D2EC63031E0D2C1400ADA506 /* Main.storyboard in Resources */,
+				D2EC63611E0D856000ADA506 /* pizzaOrders.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2EC62F61E0D2C1300ADA506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FDCB0B1E0E856D00A80A88 /* TopComboCell.swift in Sources */,
+				D2EC63881E0DE60200ADA506 /* CustomCombosViewModel.swift in Sources */,
+				D2EC633B1E0D64A500ADA506 /* ToppingsTableViewController.swift in Sources */,
+				D2EC62FE1E0D2C1400ADA506 /* AppDelegate.swift in Sources */,
+				D2EC63861E0DE4AD00ADA506 /* CustomCombosTableViewController.swift in Sources */,
+				D2EC63921E0E00BA00ADA506 /* PizzaPlannerStyleKit.swift in Sources */,
+				D2EC63841E0DD74B00ADA506 /* SettingsTableViewController.swift in Sources */,
+				D2EC638C1E0DE95700ADA506 /* TopCombosViewModel.swift in Sources */,
+				D2EC63671E0DA83800ADA506 /* Constants.swift in Sources */,
+				D2EC638A1E0DE85900ADA506 /* TopCombosTableViewController.swift in Sources */,
+				D2FDCB051E0E76CB00A80A88 /* MessageView.swift in Sources */,
+				D2EC63901E0DEE9B00ADA506 /* CreateCustomComboViewModel.swift in Sources */,
+				D2EC637C1E0DAF8500ADA506 /* PizzaPlanner.xcdatamodeld in Sources */,
+				D2EC63821E0DBCD400ADA506 /* ToppingsViewModel.swift in Sources */,
+				D2EC638E1E0DEE7D00ADA506 /* CreateCustomComboTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2EC63011E0D2C1400ADA506 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EC63021E0D2C1400ADA506 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2EC63061E0D2C1400ADA506 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EC63071E0D2C1400ADA506 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2EC630A1E0D2C1400ADA506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2EC630B1E0D2C1400ADA506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2EC630D1E0D2C1400ADA506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CX893E63R7;
+				INFOPLIST_FILE = PizzaPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotteg.PizzaPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D2EC630E1E0D2C1400ADA506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CX893E63R7;
+				INFOPLIST_FILE = PizzaPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotteg.PizzaPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2EC62F51E0D2C1300ADA506 /* Build configuration list for PBXProject "PizzaPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EC630A1E0D2C1400ADA506 /* Debug */,
+				D2EC630B1E0D2C1400ADA506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EC630C1E0D2C1400ADA506 /* Build configuration list for PBXNativeTarget "PizzaPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EC630D1E0D2C1400ADA506 /* Debug */,
+				D2EC630E1E0D2C1400ADA506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2EC637A1E0DAF8500ADA506 /* PizzaPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2EC637B1E0DAF8500ADA506 /* PizzaPlanner.xcdatamodel */,
+			);
+			currentVersion = D2EC637B1E0DAF8500ADA506 /* PizzaPlanner.xcdatamodel */;
+			path = PizzaPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2EC62F21E0D2C1300ADA506 /* Project object */;
+}
